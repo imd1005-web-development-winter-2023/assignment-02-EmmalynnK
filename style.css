@@ -1,3 +1,57 @@
-/*
-  CSS File
-*/
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    margin-top: 33px;
+}
+
+footer {
+  padding-left: 40px;
+  background-color:#fff ;
+  text-align: center;
+}
+
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+}
+
+header * {
+    display: inline;
+    height: 90px;
+}
+
+header ul {
+    padding: 38;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+/* Emma's Archive text */
+#homepage h1 {
+    font-size: 56px;
+    text-align: center;
+}
+
+header li {
+    margin-left: 30px;
+}
+/* welcome text */
+section h2 {
+    font-size: 39px;
+    text-align: center;
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,150,0),rgba(255,255,255,199)), url('https://static.wixstatic.com/media/5e4ebe6edd50441480b429d0a71e7f4f.jpg/v1/fill/w_714,h_460,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/5e4ebe6edd50441480b429d0a71e7f4f.jpg');
+}
+
+#homepage .profile-img {
+    width: 90%;
+    border-radius: 80%;
