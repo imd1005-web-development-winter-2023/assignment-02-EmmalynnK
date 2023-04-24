@@ -1,30 +1,81 @@
 <!DOCTYPE html>
-<html lang="en-ca">
-  <head>
-    <!-- Set the page title -->
-    <title>Assignment 02</title>
+<!-- Mock photographer's webpage -->
+<html>
+<head>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Emma's Archives</title>
+</head>
+<body>
+  <header>
+    <!-- Camera Logo -->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToG9UmZ-cWJKFgynce6J7kKMfqN5M-gB3uYRwQaRfyxkzGcMqL&s" alt="Logo" style="height: 60px;">
+    <nav>
+      <ul>
+        <!-- Navigation -->
+        <a href="#homepage">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#Meet the Team">Meet the Team</a>
+        <a href="#contact">Contact Us</a>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- dividing sections -->
+    <section id="homepage">
+      <div class="section-inner">
+        <!-- First background image -->
+        <img src="https://static.wixstatic.com/media/5e4ebe6edd50441480b429d0a71e7f4f.jpg/v1/fill/w_714,h_460,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/5e4ebe6edd50441480b429d0a71e7f4f.jpg" class="profile-img">
+      <!-- webpage name -->
+      <h1>Emma's Archives.</h1>
+      </div>
+    </section>
 
-    <!-- Set the charset we're using to UTF-8 -->
-    <meta charset="UTF-8" />
-
-    <!-- Set the screens default zoom / scale to 1 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     
-    <!-- Specifies the document mode for Internet Explorer -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- division -->
+     <section id="about">
+      <div class="section-inner">
+        <h2>Welcome!</h2>
+          <p>Emma's archives is here to capture your best events with the best photos.</p>
+      </div>
+    </section>
+    
+    <!-- division -->
+    <section id="Portfolio">
+    <div class="section-inner">
+      <h3>With our top of the line camera's, we'll capture those beautiful smiles!</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi vel explicabo, accusantium optio quos amet! Dolor sit amet consectetur adipisicing elit. Commodi vel explicabo, accusantium optio quos amet!</p>
+      <img src="https://cdn.taggbox.com/v7/taggbox.com/blog/wp-content/uploads/2019/09/IMG_3111-2600x1733-e1671444840244.jpg" class="profile-img">
+    </div>
+  </section>
 
-    <!-- We are using a CSS Reset file to standardize browser default css -->
-    <link rel="stylesheet" href="reset.css" />
+  <!-- division -->
+  <section id="Contact Us">
+  <div class="section-inner">
+    <h3>Have questions? Leave us a message!</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi vel explicabo, accusantium optio quos amet! </p>
+    <form>
+      <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Please enter your name:" required style="width: 100%;">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Please enter your email:" required style="width: 100%;">
+    <label for="message">Message:</label>
+    <input type="text" id="message" name="message" placeholder="Please enter your message:" required style="width: 100%;">
+    <!-- submit button -->
+    <input type="submit" value="Submit" class="submit-button">
+  </form>
+  </div>
+</section>
+    
+  </main>
 
-    <!-- This is where all of our awesome CSS code goes -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!--
+</body>
+  
+  <footer>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToG9UmZ-cWJKFgynce6J7kKMfqN5M-gB3uYRwQaRfyxkzGcMqL&s" alt="Logo" style="height: 20px;">
+    © Copyright Emma's Archives, 2023
+  </footer>
 
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
-      
-    --> 
-    <h1> hello world </h1>
-  </body>
 </html>
